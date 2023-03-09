@@ -1,6 +1,8 @@
-var myString = 'Hoc JS cung JS f8 ';
+///////////////////////// CHUỖI ////////////////////////////////
 
-// 1:Length - Tính độ dài của chuỗi 
+// var myString = 'Hoc JS cung JS f8 ';
+
+// 1:Length - Tính độ dài của chuỗi
 // console.log(myString.length)
 
 // 2:Find Index - Tìm vị trí của phần tử trong chuỗi
@@ -18,7 +20,7 @@ var myString = 'Hoc JS cung JS f8 ';
 // console.log(myString.toUpperCase())
 
 // 6:Convert to LowerCase - Chuyển chuỗi thành in Thường
-// console.log(myString.toLocaleLowerCase())
+// console.log(myString.toLowerCase())
 
 // 7:Trim - Loại bỏ khoảng trắng ở hai đầu của chuỗi
 // console.log(myString.trim().length)
@@ -37,3 +39,55 @@ var myString = 'Hoc JS cung JS f8 ';
 
 // console.log(string[0])
 // Khi nhập một giá trị khác trong chuỗi giá trị trả về sẽ là undefine
+
+///////////////////////// HÀM ////////////////////////////////
+
+
+// function writelog(){
+
+//     var string ='';
+//     for (var pagram of arguments){
+//         string += `${pagram} - `
+//     }
+//     console.log(string);
+// }
+// writelog('log1','log2')
+
+///////////////////////// SỐ ////////////////////////////////
+
+// var number1 = 1;
+// var number2 = 2.5;
+
+
+// function isNumber(value){
+//     return typeof value === 'number';
+// }
+
+// console.log(isNumber('aaa'));
+
+
+///////////////////////// Mảng ////////////////////////////////
+//Tạo mảng
+// var fruits  = [ 
+
+//     'Melon', 
+//     'Orange', 
+//     'Apple'
+// ];
+// console.log(fruits);
+
+//Kiểm tra có phải là mảng hay không vì nếu xài typeof thì [] hoặc {} đều trả về là object
+
+// console.log(Array.isArray(fruits));
+
+// lấy phần tử theo index
+
+// console.log(fruits[0]);
+
+// for ( var i = 0 ; i < fruits.length; i++ ) {
+//     console.log(fruits[i]);
+    
+// }   
+
+
+
